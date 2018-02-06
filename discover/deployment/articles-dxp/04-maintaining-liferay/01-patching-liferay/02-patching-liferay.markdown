@@ -185,6 +185,7 @@ filtering the output:
 For detailed usage information, run `patching-tool help diff`.
 
 `patching-tool store`: Manages patching level information for diff command. Your
+
 patches must contain source code to store the patch level and to prepare usable information for
 the "diff" command. This command has four options: 
 
@@ -223,6 +224,7 @@ size smaller.
 cannot run most of the Patching Tool commands until the patches are restored.
 
 After the separation process only the following commands can be used:
+
 - auto-discovery
 - info
 - setup
@@ -235,7 +237,7 @@ Any other command returns this:
  
 This is how you restore the patch files to your system. Details below. 
 
- ### Restoring the Separated Patch Files
+### Restoring the Separated Patch Files
  
 When you need to patch @product@ again, you must restore the
 separated patch artifact. To do this, copy the
